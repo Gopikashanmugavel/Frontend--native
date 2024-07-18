@@ -9,25 +9,25 @@ const Services = () => (
         <View style={styles.box}>
           <View style={styles.service}>
             <View style={styles.imageContainer}>
-              <Image source={require('./img/location-pin-map_svgrepo.com.svg')} style={styles.image} />
+              <Image source={require('./assets/location-pin-map_svgrepo.com.svg')} style={styles.image} />
             </View>
             <Text style={styles.para}>Nearby Parking</Text>
           </View>
           <View style={styles.service}>
             <View style={styles.imageContainer}>
-              <Image source={require('./img/electric-car-illustration-1_svgrepo.com-1.png')} style={styles.image} />
+              <Image source={require('./assets/electric-car-illustration-1_svgrepo.com-1.png')} style={styles.image} />
             </View>
             <Text style={styles.para}>EV Parking</Text>
           </View>
           <View style={styles.service}>
             <View style={styles.imageContainer}>
-              <Image source={require('./img/Group (2).svg')} style={styles.image} />
+              <Image source={require('./assets/Group (2).svg')} style={styles.image} />
             </View>
             <Text style={styles.para}>Car Service</Text>
           </View>
           <View style={styles.service}>
             <View style={styles.imageContainer}>
-              <Image source={require('./img/car_svgrepo.com-1.svg')} style={styles.image} />
+              <Image source={require('./assets/car_svgrepo.com-1.svg')} style={styles.image} />
             </View>
             <Text style={styles.para}>Vehicle Insurance</Text>
           </View>
@@ -35,25 +35,25 @@ const Services = () => (
         <View style={styles.box}>
           <View style={styles.service}>
             <View style={styles.imageContainer}>
-              <Image source={require('./img/crane-truck_svgrepo.com (1).svg')} style={styles.image} />
+              <Image source={require('./assets/crane-truck_svgrepo.com (1).svg')} style={styles.image} />
             </View>
             <Text style={styles.para}>Roadside Assistance</Text>
           </View>
           <View style={styles.service}>
             <View style={styles.imageContainer}>
-              <Image source={require('./img/ticket_svgrepo.com-1.svg')} style={[styles.image, { margin: 10 }]} />
+              <Image source={require('./assets/ticket_svgrepo.com-1.svg')} style={[styles.image, { margin: 10 }]} />
             </View>
             <Text style={styles.para}>Pay Online</Text>
           </View>
           <View style={styles.service}>
             <View style={styles.imageContainer}>
-              <Image source={require('./img/Group 447-1.svg')} style={styles.image} />
+              <Image source={require('./assets/Group 447-1.svg')} style={styles.image} />
             </View>
             <Text style={styles.para}>Toll Estimation</Text>
           </View>
           <View style={styles.service}>
             <View style={styles.imageContainer}>
-              <Image source={require('./img/Group 418-1.svg')} style={styles.image} />
+              <Image source={require('./assets/Group 418-1.svg')} style={styles.image} />
             </View>
             <Text style={styles.para}>Valet Parking</Text>
           </View>

@@ -1,38 +1,48 @@
 import React from 'react';
+import { View, Text, StyleSheet, Image } from 'react-native';
 
 const Header = () => (
-  <div className="container">
-    <header className="header">
-      <img src="img/Ellipse 1.png" alt="Profile" className="profile-pic" />
-      <div className="header-info">
-        <img src="img/Group 1831.png" alt="" />
-        <div className="notifications">
-          <img src="img/Group 1832.png" alt="" />
-          <img src="img/Vector (1).png" alt="" />
-          <img src="img/share_svgrepo.com.png" alt="" />
-        </div>
-      </div>
-    </header>
-  </div>
+  <View style={styles.container}>
+    <View style={styles.header}>
+      <Image
+        source={require('./assets/Ellipse 1.png')}
+        style={styles.profilePic}
+        resizeMode="cover"
+      />
+      <View style={styles.headerInfo}>
+        <Image source={require('./assets/Group 1831.png')} />
+        <View style={styles.notifications}>
+          <Image source={require('./assets/Group 1832.png')} />
+          <Image source={require('./assets/Vector (1).png')} />
+          <Image source={require('./assets/share_svgrepo.com.png')} />
+        </View>
+      </View>
+    </View>
+  </View>
 );
 
 const styles = StyleSheet.create({
   container: {
     width: '100%',
     maxWidth: 400,
-    margin: '0 auto',
+    marginHorizontal: 'auto',
     backgroundColor: '#ffffff',
     borderRadius: 10,
     overflow: 'hidden',
-    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', // Note: boxShadow isn't supported in React Native
-    position: 'relative',
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowRadius: 10,
+    shadowOffset: {
+      width: 0,
+      height: 0,
+    },
+    elevation: 5, // for Android shadow
   },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
     padding: 20,
     backgroundColor: '#3ea175',
-    color: '#ffffff', // Note: `color` is used for text; not applicable for View components
   },
   profilePic: {
     width: 50,
@@ -46,14 +56,10 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
-  vehicle: {
-    fontSize: 18,
-  },
   notifications: {
     flexDirection: 'row',
-    padding: 10, // Note: gap isn't supported in React Native, use margin or padding instead
+    padding: 10,
   },
 });
-
 
 export default Header;

@@ -8,28 +8,28 @@ const RechargeAndBillPayments = () => (
       <View style={styles.row}>
         <View style={styles.item}>
           <Image
-            source={require('./img/barrier-and-car-svgrepo-com 6.png')}
+            source={require('./assets/barrier-and-car-svgrepo-com 6.png')}
             style={styles.icon}
           />
           <Text style={styles.itemText}>Fastag Recharge</Text>
         </View>
         <View style={styles.item}>
           <Image
-            source={require('./img/essential-mobile-smartphone-svgrepo-com 1.png')}
+            source={require('./assets/essential-mobile-smartphone-svgrepo-com 1.png')}
             style={styles.icon}
           />
           <Text style={styles.itemText}>Mobile Recharge</Text>
         </View>
         <View style={styles.item}>
           <Image
-            source={require('./img/electricity-svgrepo-com 1.png')}
+            source={require('./assets/electricity-svgrepo-com 1.png')}
             style={styles.icon}
           />
           <Text style={styles.itemText}>Electricity</Text>
         </View>
         <View style={styles.item}>
           <Image
-            source={require('./img/water-null-water-tap-water-valve-svgrepo-com 1.png')}
+            source={require('./assets/water-null-water-tap-water-valve-svgrepo-com 1.png')}
             style={styles.icon}
           />
           <Text style={styles.itemText}>Water</Text>
@@ -38,28 +38,28 @@ const RechargeAndBillPayments = () => (
       <View style={styles.row}>
         <View style={styles.item}>
           <Image
-            source={require('./img/gas-tank-icon 1.png')}
+            source={require('./assets/gas-tank-icon 1.png')}
             style={styles.icon}
           />
           <Text style={styles.itemText}>Gas Cylinder</Text>
         </View>
         <View style={styles.item}>
           <Image
-            source={require('./img/hand-money-svgrepo-com 1.png')}
+            source={require('./assets/hand-money-svgrepo-com 1.png')}
             style={styles.icon}
           />
           <Text style={styles.itemText}>Loan Payment</Text>
         </View>
         <View style={styles.item}>
           <Image
-            source={require('./img/ground-satelite-dish-svgrepo-com 1.png')}
+            source={require('./assets/ground-satelite-dish-svgrepo-com 1.png')}
             style={styles.icon}
           />
           <Text style={styles.itemText}>DTH</Text>
         </View>
         <View style={styles.item}>
           <Image
-            source={require('./img/house-rent-svgrepo-com 1.png')}
+            source={require('./assets/house-rent-svgrepo-com 1.png')}
             style={styles.icon}
           />
           <Text style={styles.itemText}>House Rent</Text>

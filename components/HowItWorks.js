@@ -6,15 +6,15 @@ const HowItWorks = () => (
     <Text style={styles.header}>How ParkQwik Works</Text>
     <View style={styles.imagesContainer}>
       <Image
-        source={require('./img/Rectangle 503.svg')}
+        source={require('./assets/Rectangle 503.svg')}
         style={styles.firstImage}
       />
       <Image
-        source={require('./img/iPhone X Mockup Front View 3.svg')}
+        source={require('./assets/iPhone X Mockup Front View 3.svg')}
         style={styles.secondImage}
       />
       <Image
-        source={require('./img/play_circle.svg')}
+        source={require('./assets/play_circle.svg')}
         style={styles.thirdImage}
       />
     </View>

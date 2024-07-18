@@ -9,7 +9,7 @@ const ExclusiveOffers = () => (
         <View style={styles.travelItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/redeem.svg')}
+              source={require('./assets/redeem.svg')}
               style={styles.icon}
             />
           </View>
@@ -18,7 +18,7 @@ const ExclusiveOffers = () => (
         <View style={styles.travelItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/discount-promo-ecommerce_svgrepo.com.svg')}
+              source={require('./assets/discount-promo-ecommerce_svgrepo.com.svg')}
               style={styles.icon}
             />
           </View>
@@ -27,7 +27,7 @@ const ExclusiveOffers = () => (
         <View style={styles.travelItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/loudspeaker-6_svgrepo.com.svg')}
+              source={require('./assets/loudspeaker-6_svgrepo.com.svg')}
               style={styles.icon}
             />
           </View>

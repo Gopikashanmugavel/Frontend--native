@@ -9,7 +9,7 @@ const Discover = () => {
         <View style={styles.discoverItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/shop-bag_svgrepo.com-1.svg')}
+              source={require('./assets/shop-bag_svgrepo.com-1.svg')}
               style={styles.icon}
             />
           </View>
@@ -18,7 +18,7 @@ const Discover = () => {
         <View style={styles.discoverItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/published_with_changes-1.svg')}
+              source={require('./assets/published_with_changes-1.svg')}
               style={styles.icon}
             />
           </View>
@@ -27,7 +27,7 @@ const Discover = () => {
         <View style={styles.discoverItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/done_all-1.svg')}
+              source={require('./assets/done_all-1.svg')}
               style={styles.icon}
             />
           </View>
@@ -36,7 +36,7 @@ const Discover = () => {
         <View style={styles.discoverItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/scan_delete-1.svg')}
+              source={require('./assets/scan_delete-1.svg')}
               style={styles.icon}
             />
           </View>

@@ -7,43 +7,43 @@ const Trending = () => (
       <Text style={styles.headerText}>Trending</Text>
       <View style={styles.trendingItems}>
         <Image
-          source={require('./img/Group 487.svg')}
+          source={require('./assets/Group 487.svg')}
           style={styles.mainImage}
         />
         <Image
-          source={require('./img/Save.svg')}
+          source={require('./assets/Save.svg')}
           style={[styles.overlayImage, { top: '20%', left: '15%' }]}
         />
         <Image
-          source={require('./img/rupee-sign_svgrepo.com.svg')}
+          source={require('./assets/rupee-sign_svgrepo.com.svg')}
           style={[styles.overlayImage, { top: '20%', left: '25%' }]}
         />
         <Image
-          source={require('./img/500.svg')}
+          source={require('./assets/500.svg')}
           style={[styles.overlayImage, { top: '20%', left: '32%' }]}
         />
         <Image
-          source={require('./img/On Your First EV Parking.svg')}
+          source={require('./assets/On Your First EV Parking.svg')}
           style={[styles.overlayImage, { top: '30%', left: '32%' }]}
         />
         <Image
-          source={require('./img/We provide dedicated monthly parking with surveillance.svg')}
+          source={require('./assets/We provide dedicated monthly parking with surveillance.svg')}
           style={[styles.overlayImage, { top: '43%', left: '30%' }]}
         />
         <Image
-          source={require('./img/Group 489.svg')}
+          source={require('./assets/Group 489.svg')}
           style={[styles.overlayImage, { top: '70%', left: '67%' }]}
         />
         <Image
-          source={require('./img/100+.svg')}
+          source={require('./assets/100+.svg')}
           style={[styles.overlayImage, { top: '68%', left: '80%' }]}
         />
         <Image
-          source={require('./img/Happy Customers.svg')}
+          source={require('./assets/Happy Customers.svg')}
           style={[styles.overlayImage, { top: '75%', left: '84%' }]}
         />
         <Image
-          source={require('./img/Group 488.svg')}
+          source={require('./assets/Group 488.svg')}
           style={[styles.overlayImage, { top: '85%', left: '45%' }]}
         />
       </View>

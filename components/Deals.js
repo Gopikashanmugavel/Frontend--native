@@ -5,7 +5,7 @@ const Deals = () => (
   <View style={styles.deals}>
     <Text style={styles.headerText}>Deals For You</Text>
     <Image 
-      source={require('./img/Group 1869.png')} 
+      source={require('./assets/Group 1869.png')} 
       style={styles.dealsImage} 
     />
   </View>

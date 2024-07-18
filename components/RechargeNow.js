@@ -5,7 +5,7 @@ const RechargeNow = ({ addMoney }) => (
   <View style={styles.container}>
     <View style={styles.money}>
       <Image
-        source={require('./img/Rectangle 21 (1).png')}
+        source={require('./assets/Rectangle 21 (1).png')}
         style={styles.image}
       />
       <View style={styles.money2}>
@@ -18,13 +18,13 @@ const RechargeNow = ({ addMoney }) => (
           </TouchableOpacity>
         </View>
         <Image
-          source={require('./img/Group 1.png')}
+          source={require('./assets/Group 1.png')}
           style={styles.bankLogo}
         />
       </View>
     </View>
     <Image
-      source={require('./img/Group 556.png')}
+      source={require('./assets/Group 556.png')}
       style={styles.secondaryImage}
     />
   </View>

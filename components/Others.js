@@ -8,7 +8,7 @@ const Others = () => (
       <View style={styles.item}>
         <View style={styles.imageContainer}>
           <Image
-            source={require('./img/Group 470-1.svg')}
+            source={require('./assets/Group 470-1.svg')}
             style={styles.image}
           />
         </View>
@@ -17,7 +17,7 @@ const Others = () => (
       <View style={styles.item}>
         <View style={styles.imageContainer}>
           <Image
-            source={require('./img/Group 471-1.svg')}
+            source={require('./assets/Group 471-1.svg')}
             style={styles.image}
           />
         </View>
@@ -26,7 +26,7 @@ const Others = () => (
       <View style={styles.item}>
         <View style={styles.imageContainer}>
           <Image
-            source={require('./img/shop-bag_svgrepo.com.svg')}
+            source={require('./assets/shop-bag_svgrepo.com.svg')}
             style={styles.image}
           />
         </View>
@@ -35,7 +35,7 @@ const Others = () => (
       <View style={styles.item}>
         <View style={styles.imageContainer}>
           <Image
-            source={require('./img/car_svgrepo.com.svg')}
+            source={require('./assets/car_svgrepo.com.svg')}
             style={styles.image}
           />
         </View>

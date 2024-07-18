@@ -16,11 +16,11 @@ const FastagRecharge = ({ recharge }) => (
       <View style={styles.poweredBy}>
         <Text>Powered by</Text>
         <Image
-          source={require('./img/national-electronic-toll-collection-netc-logo-vector_svgrepo.com.png')}
+          source={require('./assets/national-electronic-toll-collection-netc-logo-vector_svgrepo.com.png')}
           style={styles.logo}
         />
         <Image
-          source={require('./img/bharat-billpay-seeklogo.com_svgrepo.com.png')}
+          source={require('./assets/bharat-billpay-seeklogo.com_svgrepo.com.png')}
           style={styles.logo}
         />
       </View>
@@ -32,7 +32,7 @@ const FastagRecharge = ({ recharge }) => (
         <View style={styles.discoverItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/shop-bag_svgrepo.com-1.svg')}
+              source={require('./assets/shop-bag_svgrepo.com-1.svg')}
               style={styles.icon}
             />
           </View>
@@ -41,7 +41,7 @@ const FastagRecharge = ({ recharge }) => (
         <View style={styles.discoverItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/published_with_changes-1.svg')}
+              source={require('./assets/published_with_changes-1.svg')}
               style={styles.icon}
             />
           </View>
@@ -50,7 +50,7 @@ const FastagRecharge = ({ recharge }) => (
         <View style={styles.discoverItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/done_all-1.svg')}
+              source={require('./assets/done_all-1.svg')}
               style={styles.icon}
             />
           </View>
@@ -59,7 +59,7 @@ const FastagRecharge = ({ recharge }) => (
         <View style={styles.discoverItem}>
           <View style={styles.iconContainer}>
             <Image
-              source={require('./img/scan_delete-1.svg')}
+              source={require('./assets/scan_delete-1.svg')}
               style={styles.icon}
             />
           </View>

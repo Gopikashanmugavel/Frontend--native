@@ -9,7 +9,7 @@ const Travel = () => (
         <View style={styles.travelItem}>
           <View style={styles.container5}>
             <Image
-              source={require('./img/Group.svg')}
+              source={require('./assets/Group.svg')}
               style={styles.image}
             />
           </View>
@@ -18,7 +18,7 @@ const Travel = () => (
         <View style={styles.travelItem}>
           <View style={styles.container5}>
             <Image
-              source={require('./img/Group 464-1.svg')}
+              source={require('./assets/Group 464-1.svg')}
               style={styles.image}
             />
           </View>
@@ -27,7 +27,7 @@ const Travel = () => (
         <View style={styles.travelItem}>
           <View style={styles.container5}>
             <Image
-              source={require('./img/shop-bag_svgrepo.com.svg')}
+              source={require('./assets/shop-bag_svgrepo.com.svg')}
               style={styles.image}
             />
           </View>
@@ -36,7 +36,7 @@ const Travel = () => (
         <View style={styles.travelItem}>
           <View style={styles.container5}>
             <Image
-              source={require('./img/traffic-light_svgrepo.com-1.svg')}
+              source={require('./assets/traffic-light_svgrepo.com-1.svg')}
               style={styles.image}
             />
           </View>
